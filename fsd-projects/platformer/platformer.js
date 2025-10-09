@@ -48,10 +48,9 @@ createCollectable("steve", 200, 400)
 createCollectable("steve", 700, 100)
 createCollectable("steve", 1200, 300)
     // TODO 4 - Create Cannons
-
-
-    
-    
+createCannon("right", 250, 1)
+createCannon()
+createCannon()
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
