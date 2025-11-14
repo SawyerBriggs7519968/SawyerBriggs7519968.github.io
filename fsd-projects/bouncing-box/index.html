@@ -70,10 +70,10 @@
 
         // TODO 2 - Variable declarations
 var positionX = 0
-positionX = positionX + 10; 
+positionX = positionX + speed; 
 moveBoxTo(positionX)
 var points = 0;
-
+var speed = 10
         /**
          * This Function will be called 20 times/second.
          * Each time it is called, it should move the Box to a new location.
@@ -98,6 +98,8 @@ positionX = 0
 changeBoxText(0);
 changeBoxText(points);
 points = points + 1
+speed = speed + 3
+
 
         }
 
