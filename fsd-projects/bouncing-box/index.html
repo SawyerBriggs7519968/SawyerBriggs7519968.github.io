@@ -70,8 +70,6 @@
 
         // TODO 2 - Variable declarations
 var positionX = 0
-positionX = positionX + speed; 
-moveBoxTo(positionX)
 var points = 0;
 var speed = 10
         /**
@@ -80,9 +78,9 @@ var speed = 10
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-moveBoxTo(200);
-        
-
+moveBoxTo(positionX)
+       positionX = positionX + 10 
+positionX = positionX + speed; 
           
         }
 
